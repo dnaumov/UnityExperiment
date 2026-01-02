@@ -42,4 +42,4 @@ The game includes:
 - **Rotation Speed**: 100 degrees/second (yaw)
 - **Pitch Speed**: 50 degrees/second
 - **Roll Speed**: 50 degrees/second
-- **Physics**: Rigidbody with gravity disabled
+- **Physics**: Kinematic Rigidbody (gravity disabled, direct transform control)
