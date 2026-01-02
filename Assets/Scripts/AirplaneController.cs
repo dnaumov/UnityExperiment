@@ -18,6 +18,7 @@ public class AirplaneController : MonoBehaviour
             rb = gameObject.AddComponent<Rigidbody>();
         }
         rb.useGravity = false;
+        rb.isKinematic = true; // Use kinematic mode for direct transform control
     }
 
     void Update()
